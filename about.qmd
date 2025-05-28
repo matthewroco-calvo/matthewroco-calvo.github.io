@@ -2,4 +2,12 @@
 title: "About"
 ---
 
-This will be my about page!
+This is a draft of my about me page
+
+::: {.layout-ncol=3}
+![Me and a Joshua Tree!](photos/joshuatree.png){height=300px}
+![Snorkeling](photos/snork.jpeg){height=300px}
+![Rainbow](photos/rainbow.png){height=300px} 
+:::
+
+I will add further text here
