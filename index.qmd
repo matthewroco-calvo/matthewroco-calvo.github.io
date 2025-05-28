@@ -1,11 +1,18 @@
 ---
-title: "matthewroco-calvo.github.io"
+title: "Matthew Roco-Calvo"
+image: photos/balcony.jpg
+about: 
+  template: trestles
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/matthewroco-calvo/
+    - text: GitHub
+      href: https://github.com/matthewroco-calvo
+    - text: Email
+      href: mailto:matthewroco-calvo@ucsb.edu
+
 ---
 
-This is a Quarto website.
+Hi my name is Matthew Roco-Calvo! This is my website for my ENV S 193 DS project, and I am excited to continually update it as I progress through my education and future career.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```

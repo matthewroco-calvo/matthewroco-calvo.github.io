@@ -4,13 +4,13 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This will be my about page!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "matthewroco-calvo.github.io",
+    "title": "Matthew Roco-Calvo",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hi my name is Matthew Roco-Calvo! This is my website for my ENV S 193 DS project, and I am excited to continually update it as I progress through my education and future career."
   }
 ]

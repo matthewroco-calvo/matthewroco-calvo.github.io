@@ -4,18 +4,21 @@ project:
 
 
 website:
-  title: "matthewroco-calvo.github.io"
+  title: "Matthew Roco-Calvo"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - Resume.qmd
+      - Projects.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 
