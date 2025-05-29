@@ -3,3 +3,7 @@ title: "Projects"
 format: html
 ---
 
+I will include my final biology lab projects and my soil science final paper.
+For the portion of code, I will include the code chunk  of my midterm where I visualized tussock height , as well as the figure that it created (with its caption as well).
+
+In the future I will also include my affective visualization.
