@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This is a draft of my about me page\n\n  \n\nI am an environmental studies major who loves the ocean. I hope to pursue a career in human-environmental health in order to make the places in which we reside healthier, sustainable, and overall more pleasant to live in."
+    "text": "This is a draft of my about me page\nI am an environmental studies major who loves the ocean. I hope to pursue a career in human-environmental health in order to make the places in which we reside healthier, sustainable, and overall more pleasant to live in."
   },
   {
     "objectID": "index.html",
@@ -61,5 +61,26 @@
     "title": "Projects",
     "section": "Code Chunk Example",
     "text": "Code Chunk Example\nFor my midterm for my Environmental Data Science course, I had to create a figure in RStudio using a dataset from a paper. Below is the code chunk where I created a plot comparing the mean Tussock (a grass) mound height in cm between burned and unburned areas in Alaska.\n\nggplot(data = tussocks_clean, #starting with tussocks_clean data frame\n       aes(\n         x = site, #using site as the X axis\n         y = average_moss_cm, #using average moss height as the y axis\n         color = site #coloring by site (burned or unburned)\n       )) +\n  geom_jitter(  #first layer is a jitterplot, which allows us to see the underlying data\n    height = 0, #ensuring there is no verticle jitter (preserving the values)\n    width = 0.1, #reducing the horizontal jitter\n    shape = 21,  #making the shape open circles\n    alpha = 0.4 #making the circles more transparent\n             ) +\n  geom_pointrange( #adding the mean and standard error\n      data = tussocks_summary, #using the tussocks_summary dataframe\n      aes(x = site, #x axis is site\n          y = mean, #y axis is mean\n          ymax = mean + standard_error, #y max is the mean + the standard error\n          ymin = mean - standard_error #y min is the mean - the standard error\n          )\n      ) +\n \n  labs( x = \"Site\", #labeling the x and y axes using labs\n        y = \"Tussock Mound Height (cm)\",\n        title = \"Tussock Mound Height in Burned and Unburned Areas\",\n        subtitle = \"Matthew Roco-Calvo\") +\n  scale_color_manual(values = #changing the colors of each site\n                     c(\"Burned\" = \"tomato3\", #using a dark red to represent burn areas \n                      \"Unburned\" = \"palegreen3\" #using a dark green to represent unburned areas.\n                         ))+ \n  theme(legend.position = \"none\", #removing the legend\n        panel.grid = element_blank(), #removing gridlines\n        panel.background = element_blank(), #making the background white\n        plot.title = element_text(hjust = 0.5,\n                                  face = \"bold\"), #centering the title and bolding it\n        plot.subtitle = element_text(hjust = 0.5) #centering the subtitle\n        ) \n\n\nFigure 3b. Tussock Mound Heights are larger in burned areas than unburned areas.\nData from Steketee, Jess K., Adrian V. Rocha, Laura Gough, Kevin L. Griffin, Ian Klupar, Ruby An, Nicole Williamson, and Rebecca J. Rowe. 2022. “ Small Herbivores with Big Impacts: Tundra Voles (Microtus Oeconomus) Alter Post-Fire Ecosystem Dynamics.” Ecology 103(7): e3689.\nOpen circles represent observations of tussock mound height (cm) (total n= 190). Filled circle represents mean. Colors represent site location (red: burned, green = unburned). Bars represent standard error."
+  },
+  {
+    "objectID": "Miscellaneous.html#travel",
+    "href": "Miscellaneous.html#travel",
+    "title": "Miscellaneous",
+    "section": "Travel",
+    "text": "Travel"
+  },
+  {
+    "objectID": "Miscellaneous.html#places-i-have-been",
+    "href": "Miscellaneous.html#places-i-have-been",
+    "title": "Miscellaneous",
+    "section": "Places I Have Been",
+    "text": "Places I Have Been\nHere is a map of places I have been to!"
+  },
+  {
+    "objectID": "about.html#growing-up-internationally",
+    "href": "about.html#growing-up-internationally",
+    "title": "About",
+    "section": "Growing up Internationally",
+    "text": "Growing up Internationally\nAlthough I have lived in California for the past 6 years (almost 7 in July), I am originally from Dubai in the United Arab Emirates.\n\n\n\nMoving to the United States"
   }
 ]

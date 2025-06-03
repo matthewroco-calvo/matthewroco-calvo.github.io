@@ -11,3 +11,16 @@ This is a draft of my about me page
 :::
 
 I am an environmental studies major who loves the ocean. I hope to pursue a career in human-environmental health in order to make the places in which we reside healthier, sustainable, and overall more pleasant to live in.
+
+## Growing up Internationally
+
+Although I have lived in California for the past 6 years (almost 7 in July), I am originally from Dubai in the United Arab Emirates.
+
+::: {.layout-ncol=3}
+
+
+
+:::
+
+
+Moving to the United States
