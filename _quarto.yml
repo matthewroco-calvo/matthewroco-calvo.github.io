@@ -10,8 +10,10 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - Resume.qmd
+      - href: files/resume_githubweb.pdf
+        text: Resume
       - Projects.qmd
+      - Miscellaneous.qmd
 
 format:
   html:

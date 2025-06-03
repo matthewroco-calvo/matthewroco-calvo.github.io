@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -97,12 +131,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Resume.html"> 
+    <a class="nav-link" href="./files/resume_githubweb.pdf"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./Projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Miscellaneous.html"> 
+<span class="menu-text">Miscellaneous</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -115,11 +153,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tyrosinase-experiment" id="toc-tyrosinase-experiment" class="nav-link active" data-scroll-target="#tyrosinase-experiment">Tyrosinase Experiment</a></li>
+  <li><a href="#soils-project" id="toc-soils-project" class="nav-link" data-scroll-target="#soils-project">Soils Project</a></li>
+  <li><a href="#code-chunk-example" id="toc-code-chunk-example" class="nav-link" data-scroll-target="#code-chunk-example">Code Chunk Example</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -128,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -140,8 +186,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="tyrosinase-experiment" class="level3">
+<h3 class="anchored" data-anchor-id="tyrosinase-experiment">Tyrosinase Experiment</h3>
+<p>This was my final project from my MCDB 1LL Lab course, where we conducted an experiment assessing how the pH conditions affect the enzymatic activity of Tyrosinase, which is a protein that is responsible for the production of melanin and animals, as well as fruits and vegetables.</p>
+<p align="center">
+<iframe src="files/mcdbproject.pdf" width="80%" height="400px">
+<p>This browser does not support PDFs. Please download the PDF to view it:</p>
+</iframe>
+</p></section>
+<section id="soils-project" class="level3">
+<h3 class="anchored" data-anchor-id="soils-project">Soils Project</h3>
+<p>Below was my final project for my ENV S 114 class, which was Introduction of Soil Science. In this, I aimed to study how urbanization and restoration impacted soil characteristics in Goleta, specifically comparing the North Campus Open Space restoration area to the Coal Oil Point Reserve soils.</p>
+<p align="center">
+<iframe src="files/soilproject.pdf" width="80%" height="400px">
+<p>This browser does not support PDFs. Please download the PDF to view it:</p>
+</iframe>
+</p></section>
+<section id="code-chunk-example" class="level3">
+<h3 class="anchored" data-anchor-id="code-chunk-example">Code Chunk Example</h3>
+<p>For my midterm for my Environmental Data Science course, I had to create a figure in RStudio using a dataset from a paper. Below is the code chunk where I created a plot comparing the mean Tussock (a grass) mound height in cm between burned and unburned areas in Alaska.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> tussocks_clean, <span class="co">#starting with tussocks_clean data frame</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>         <span class="at">x =</span> site, <span class="co">#using site as the X axis</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">y =</span> average_moss_cm, <span class="co">#using average moss height as the y axis</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>         <span class="at">color =</span> site <span class="co">#coloring by site (burned or unburned)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>       )) <span class="sc">+</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(  <span class="co">#first layer is a jitterplot, which allows us to see the underlying data</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">height =</span> <span class="dv">0</span>, <span class="co">#ensuring there is no verticle jitter (preserving the values)</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">width =</span> <span class="fl">0.1</span>, <span class="co">#reducing the horizontal jitter</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">shape =</span> <span class="dv">21</span>,  <span class="co">#making the shape open circles</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">alpha =</span> <span class="fl">0.4</span> <span class="co">#making the circles more transparent</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>             ) <span class="sc">+</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_pointrange</span>( <span class="co">#adding the mean and standard error</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>      <span class="at">data =</span> tussocks_summary, <span class="co">#using the tussocks_summary dataframe</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>      <span class="fu">aes</span>(<span class="at">x =</span> site, <span class="co">#x axis is site</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>          <span class="at">y =</span> mean, <span class="co">#y axis is mean</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>          <span class="at">ymax =</span> mean <span class="sc">+</span> standard_error, <span class="co">#y max is the mean + the standard error</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>          <span class="at">ymin =</span> mean <span class="sc">-</span> standard_error <span class="co">#y min is the mean - the standard error</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>          )</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>      ) <span class="sc">+</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>( <span class="at">x =</span> <span class="st">"Site"</span>, <span class="co">#labeling the x and y axes using labs</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        <span class="at">y =</span> <span class="st">"Tussock Mound Height (cm)"</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        <span class="at">title =</span> <span class="st">"Tussock Mound Height in Burned and Unburned Areas"</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        <span class="at">subtitle =</span> <span class="st">"Matthew Roco-Calvo"</span>) <span class="sc">+</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="co">#changing the colors of each site</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>                     <span class="fu">c</span>(<span class="st">"Burned"</span> <span class="ot">=</span> <span class="st">"tomato3"</span>, <span class="co">#using a dark red to represent burn areas </span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>                      <span class="st">"Unburned"</span> <span class="ot">=</span> <span class="st">"palegreen3"</span> <span class="co">#using a dark green to represent unburned areas.</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>                         ))<span class="sc">+</span> </span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>, <span class="co">#removing the legend</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(), <span class="co">#removing gridlines</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.background =</span> <span class="fu">element_blank</span>(), <span class="co">#making the background white</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>,</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>                                  <span class="at">face =</span> <span class="st">"bold"</span>), <span class="co">#centering the title and bolding it</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>) <span class="co">#centering the subtitle</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>        ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><img src="files/plotcopy.jpg" class="img-fluid"></p>
+<p><strong>Figure 3b. Tussock Mound Heights are larger in burned areas than unburned areas.</strong></p>
+<p>Data from Steketee, Jess K., Adrian V. Rocha, Laura Gough, Kevin L. Griffin, Ian Klupar, Ruby An, Nicole Williamson, and Rebecca J. Rowe. 2022. “ Small Herbivores with Big Impacts: Tundra Voles (Microtus Oeconomus) Alter Post-Fire Ecosystem Dynamics.” Ecology 103(7): e3689.</p>
+<p>Open circles represent observations of tussock mound height (cm) (total n= 190). Filled circle represents mean. Colors represent site location (red: burned, green = unburned). Bars represent standard error.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
