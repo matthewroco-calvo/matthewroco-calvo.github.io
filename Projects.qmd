@@ -3,7 +3,7 @@ title: "Projects"
 format: html
 ---
 
-### Tyrosinase Experiment
+## Tyrosinase Experiment
 
 This was my final project from my MCDB 1LL Lab course, where we conducted an experiment assessing how the pH conditions affect the enzymatic activity of Tyrosinase, which is a protein that is responsible for the production of melanin and animals, as well as fruits and vegetables.
 
@@ -15,7 +15,7 @@ This browser does not support PDFs. Please download the PDF to view it:
 
 </iframe>
 
-### Soils Project
+## Soils Project
 
 Below was my final project for my ENV S 114 class, which was Introduction of Soil Science. In this, I aimed to study how urbanization and restoration impacted soil characteristics in Goleta, specifically comparing the North Campus Open Space restoration area to the Coal Oil Point Reserve soils.
 
@@ -27,7 +27,7 @@ This browser does not support PDFs. Please download the PDF to view it:
 
 </iframe>
 
-### Code Chunk Example
+## Code Chunk Example
 
 For my midterm for my Environmental Data Science course, I had to create a figure in RStudio using a dataset from a paper. Below is the code chunk where I created a plot comparing the mean Tussock (a grass) mound height in cm between burned and unburned areas in Alaska.
 

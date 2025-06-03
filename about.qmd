@@ -10,4 +10,4 @@ This is a draft of my about me page
 ![Rainbow](photos/rainbow.png){height=300px} 
 :::
 
-I will add further text here
+I am an environmental studies major who loves the ocean. I hope to pursue a career in human-environmental health in order to make the places in which we reside healthier, sustainable, and overall more pleasant to live in.
