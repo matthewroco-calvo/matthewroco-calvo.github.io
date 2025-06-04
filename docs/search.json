@@ -7,18 +7,32 @@
     "text": "I am a second year environmental studies major who loves the ocean. I hope to pursue a career in human-environmental health in order to make the places in which we reside healthier, sustainable, and overall more pleasant to live in.\nOutside of school and work I enjoy cooking and baking, although most times you will catch me throwing together whatever I can find in my fridge into a quick fried rice."
   },
   {
+    "objectID": "about.html#introduction",
+    "href": "about.html#introduction",
+    "title": "About",
+    "section": "",
+    "text": "I am a second year environmental studies major who loves the ocean. I hope to pursue a career in human-environmental health in order to make the places in which we reside healthier, sustainable, and overall more pleasant to live in.\nOutside of school and work I enjoy cooking and baking, although most times you will catch me throwing together whatever I can find in my fridge into a quick fried rice."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nAlthough I have lived in California for the past 6 years (almost 7 in July), I am originally from Dubai in the United Arab Emirates. I was born in Philadelphia, Pennsylvannia but moved to Dubai before I was one. Here are some pictures of me as a child.\nThe photo on the left features the still under construction Burj Khalifa in the background, which would become the tallest building in the world. The photo on the right has the Burj al Arab, which is considered the only 7 star hotel in the world (although I have never been inside).\n\n \n\nI moved to the United States when I was 13 right before starting 8th grade, and have been here ever since."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nAs an Environmental Studies student, it can be intimidating trying to find a niche that really speaks to me in a field that is so broad and diverse. As such, I have been attempting to explore opportunities in different areas of the Environment.\nStarting in January of this year, I have volunteered as a Docent at the Research Experience and Education Facility (REEF) here at UCSB. The REEF is a touch tank aquarium, and is focused on outreach and education. During my shifts I help with animal husbandry tasks such as feeding and cleaning, as well as assisting with outreach programs and educating visitors about the many marine organisms of the Santa Barbara channel.\nResearch is another aspect of Environmental Studies that I am interested in, and I have the opportunity to work as a research assistant under Zoe Sims. Her project is a meta-analysis of scientific literature on intercropping, or the practice of growing multiple types of crops on the same field, in order to understand how this agriculture system can improve crop yields and nitrogen fertilizer use."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Matthew Roco-Calvo",
     "section": "",
-    "text": "Hi my name is Matthew Roco-Calvo! This is my website for my ENV S 193 DS project, and I am excited to continually update it as I progress through my education and future career.\nI am an undergraduate student at UC Santa Barbara pursuing a bachelor of science in environmental studies and expecting to graduate in June 2027\nCurrently I am an Undergraduate Research Assistant at the Bren School of working under Zoe Sims studying the effects of intercropping on crop yields. I also am a Docent/Informal Science Educator at the REEF aquarium at UCSB, where I help with animal husbandry tasks such as feeding and cleaning, as well as assisting with outreach programs and educating visitors about the many marine organisms of the Santa Barbara channel."
-  },
-  {
-    "objectID": "Projects.html",
-    "href": "Projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "This was my final project from my MCDB 1LL Lab course, where we conducted an experiment assessing how the pH conditions affect the enzymatic activity of Tyrosinase, which is a protein that is responsible for the production of melanin and animals, as well as fruits and vegetables.\n\n\n&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it:&lt;/p&gt;"
+    "text": "Hi my name is Matthew Roco-Calvo! This is my website for my ENV S 193 DS project, and I am excited to continually update it as I progress through my education and future career.\nI am an undergraduate student at UC Santa Barbara pursuing a bachelor of science in environmental studies and expecting to graduate in June 2027. Currently I am an Undergraduate Research Assistant at the Bren School of working under Zoe Sims studying the effects of intercropping on crop yields. I also am a Docent/Informal Science Educator at the REEF aquarium at UCSB."
   },
   {
     "objectID": "Resume.html",
@@ -28,18 +42,11 @@
     "text": "I will insert my resume"
   },
   {
-    "objectID": "Miscellaneous.html",
-    "href": "Miscellaneous.html",
-    "title": "Miscellaneous",
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "I love music, and I really enjoy singing. Unfortunately I am too scared to include videos of that, although I did actually consider it! I have decided to substitute it with some playlists I have made, I hope whoever is viewing this is not too dissapointed by this repacement.\nAnyway, here is a playlist I made for cloudier days, such as the one’s we have been having here in Santa Barbara recently:\n\n\nHere is another playlist I have for sunnier days:\n\n\nThis playlist, as the title sugguests, is a compilation of my favorite songs across all genres in one place:\n\n\nAs much as I want everyone to believe that my curated playlists represent me, I realize that my “On Repeat” playlist generated by Spotify is a little bit more honest with my actual listening habits, so I will be vulnerable and share that here as well:"
-  },
-  {
-    "objectID": "Miscellaneous.html#music",
-    "href": "Miscellaneous.html#music",
-    "title": "Miscellaneous",
-    "section": "",
-    "text": "I love music, and I really enjoy singing. Unfortunately I am too scared to include videos of that, although I did actually consider it! I have decided to substitute it with some playlists I have made, I hope whoever is viewing this is not too dissapointed by this repacement.\nAnyway, here is a playlist I made for cloudier days, such as the one’s we have been having here in Santa Barbara recently:\n\n\nHere is another playlist I have for sunnier days:\n\n\nThis playlist, as the title sugguests, is a compilation of my favorite songs across all genres in one place:\n\n\nAs much as I want everyone to believe that my curated playlists represent me, I realize that my “On Repeat” playlist generated by Spotify is a little bit more honest with my actual listening habits, so I will be vulnerable and share that here as well:"
+    "text": "This was my final project from my MCDB 1LL Lab course, where we conducted an experiment assessing how the pH conditions affect the enzymatic activity of Tyrosinase, which is a protein that is responsible for the production of melanin and animals, as well as fruits and vegetables.\n\n\n&lt;p&gt;This browser does not support PDFs. Please download the PDF to view it:&lt;/p&gt;"
   },
   {
     "objectID": "Projects.html#tyrosinase-experiment",
@@ -63,11 +70,18 @@
     "text": "Code Chunk Example\nFor my midterm for my Environmental Data Science course, I had to create a figure in RStudio using a dataset from a paper. Below is the code chunk where I created a plot comparing the mean Tussock (a grass) mound height in cm between burned and unburned areas in Alaska.\n\nggplot(data = tussocks_clean, #starting with tussocks_clean data frame\n       aes(\n         x = site, #using site as the X axis\n         y = average_moss_cm, #using average moss height as the y axis\n         color = site #coloring by site (burned or unburned)\n       )) +\n  geom_jitter(  #first layer is a jitterplot, which allows us to see the underlying data\n    height = 0, #ensuring there is no verticle jitter (preserving the values)\n    width = 0.1, #reducing the horizontal jitter\n    shape = 21,  #making the shape open circles\n    alpha = 0.4 #making the circles more transparent\n             ) +\n  geom_pointrange( #adding the mean and standard error\n      data = tussocks_summary, #using the tussocks_summary dataframe\n      aes(x = site, #x axis is site\n          y = mean, #y axis is mean\n          ymax = mean + standard_error, #y max is the mean + the standard error\n          ymin = mean - standard_error #y min is the mean - the standard error\n          )\n      ) +\n \n  labs( x = \"Site\", #labeling the x and y axes using labs\n        y = \"Tussock Mound Height (cm)\",\n        title = \"Tussock Mound Height in Burned and Unburned Areas\",\n        subtitle = \"Matthew Roco-Calvo\") +\n  scale_color_manual(values = #changing the colors of each site\n                     c(\"Burned\" = \"tomato3\", #using a dark red to represent burn areas \n                      \"Unburned\" = \"palegreen3\" #using a dark green to represent unburned areas.\n                         ))+ \n  theme(legend.position = \"none\", #removing the legend\n        panel.grid = element_blank(), #removing gridlines\n        panel.background = element_blank(), #making the background white\n        plot.title = element_text(hjust = 0.5,\n                                  face = \"bold\"), #centering the title and bolding it\n        plot.subtitle = element_text(hjust = 0.5) #centering the subtitle\n        ) \n\n\nFigure 3b. Tussock Mound Heights are larger in burned areas than unburned areas.\nData from Steketee, Jess K., Adrian V. Rocha, Laura Gough, Kevin L. Griffin, Ian Klupar, Ruby An, Nicole Williamson, and Rebecca J. Rowe. 2022. “ Small Herbivores with Big Impacts: Tundra Voles (Microtus Oeconomus) Alter Post-Fire Ecosystem Dynamics.” Ecology 103(7): e3689.\nOpen circles represent observations of tussock mound height (cm) (total n= 190). Filled circle represents mean. Colors represent site location (red: burned, green = unburned). Bars represent standard error."
   },
   {
-    "objectID": "Miscellaneous.html#travel",
-    "href": "Miscellaneous.html#travel",
+    "objectID": "Miscellaneous.html",
+    "href": "Miscellaneous.html",
     "title": "Miscellaneous",
-    "section": "Travel",
-    "text": "Travel"
+    "section": "",
+    "text": "I love music, and I really enjoy singing. Unfortunately I am too scared to include videos of that, although I did actually consider it! I have decided to substitute it with some playlists I have made, I hope whoever is viewing this is not too dissapointed by this repacement.\nAnyway, here is a playlist I made for cloudier days, such as the one’s we have been having here in Santa Barbara recently:\n\n\nHere is another playlist I have for sunnier days:\n\n\nThis playlist, as the title sugguests, is a compilation of my favorite songs across all genres in one place:\n\n\nAs much as I want everyone to believe that my curated playlists represent me, I realize that my “On Repeat” playlist generated by Spotify is a little bit more honest with my actual listening habits, so I will be vulnerable and share that here as well:"
+  },
+  {
+    "objectID": "Miscellaneous.html#music",
+    "href": "Miscellaneous.html#music",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "I love music, and I really enjoy singing. Unfortunately I am too scared to include videos of that, although I did actually consider it! I have decided to substitute it with some playlists I have made, I hope whoever is viewing this is not too dissapointed by this repacement.\nAnyway, here is a playlist I made for cloudier days, such as the one’s we have been having here in Santa Barbara recently:\n\n\nHere is another playlist I have for sunnier days:\n\n\nThis playlist, as the title sugguests, is a compilation of my favorite songs across all genres in one place:\n\n\nAs much as I want everyone to believe that my curated playlists represent me, I realize that my “On Repeat” playlist generated by Spotify is a little bit more honest with my actual listening habits, so I will be vulnerable and share that here as well:"
   },
   {
     "objectID": "Miscellaneous.html#places-i-have-been",
@@ -75,40 +89,5 @@
     "title": "Miscellaneous",
     "section": "Places I Have Been",
     "text": "Places I Have Been\nHere is a map of places I have been to!"
-  },
-  {
-    "objectID": "about.html#growing-up-internationally",
-    "href": "about.html#growing-up-internationally",
-    "title": "About",
-    "section": "Growing up Internationally",
-    "text": "Growing up Internationally\nAlthough I have lived in California for the past 6 years (almost 7 in July), I am originally from Dubai in the United Arab Emirates.\n\n\n\nMoving to the United States"
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About",
-    "section": "Background",
-    "text": "Background\nAlthough I have lived in California for the past 6 years (almost 7 in July), I am originally from Dubai in the United Arab Emirates. I was born in Philadelphia, Pennsylvannia but moved to Dubai before I was one. Here are some pictures of me as a child.\nThe photo on the left features the still under construction Burj Khalifa in the background, which would become the tallest building in the world. The photo on the right has the Burj al Arab, which is considered the only 7 star hotel in the world (although I have never been inside).\n\n \n\nI moved to the United States when I was 13 right before starting 8th grade, and have been here ever since."
-  },
-  {
-    "objectID": "about.html#introduction",
-    "href": "about.html#introduction",
-    "title": "About",
-    "section": "",
-    "text": "I am a second year environmental studies major who loves the ocean. I hope to pursue a career in human-environmental health in order to make the places in which we reside healthier, sustainable, and overall more pleasant to live in.\nOutside of school and work I enjoy cooking and baking, although most times you will catch me throwing together whatever I can find in my fridge into a quick fried rice."
-  },
-  {
-    "objectID": "about.html#current-experience",
-    "href": "about.html#current-experience",
-    "title": "About",
-    "section": "Current Experience",
-    "text": "Current Experience"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "About",
-    "section": "Experience",
-    "text": "Experience\nAs an Environmental Studies student, it can be intimidating trying to find a niche that really speaks to me in a field that is so broad and diverse. As such, I have been attempting to explore opportunities in different areas of the Environment.\nStarting in January of this year, I have volunteered as a Docent at the Research Experience and Education Facility (REEF) here at UCSB. The REEF is a touch tank aquarium, and is focused on outreach and education. During my shifts I help with animal husbandry tasks such as feeding and cleaning, as well as assisting with outreach programs and educating visitors about the many marine organisms of the Santa Barbara channel.\nResearch is another aspect of Environmental Studies that I am interested in, and I have the opportunity to work as a research assistant under Zoe Sims. Her project is a meta-analysis of scientific literature on intercropping, or the practice of growing multiple types of crops on the same field, in order to understand how this agriculture system can improve crop yields and nitrogen fertilizer use."
   }
 ]
