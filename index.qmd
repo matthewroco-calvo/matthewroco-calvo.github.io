@@ -17,5 +17,3 @@ Hi my name is Matthew Roco-Calvo! This is a website I made for my ENV S 193 DS c
 I am an undergraduate student at UC Santa Barbara pursuing a Bachelor of Science in Environmental Studies and expecting to graduate in June 2027. Currently, I am the shark and special systems aquarist at the REEF aquarium at UCSB's Marine Science Institute. I am also an Undergraduate Learning Assistant for Professor An Bui, where I assist in her Environmental Data Science and Environmental Statistics courses.
 
 This upcoming summer, I will be a Bren Environmental Leadership research fellow, where I will be using R, and working alongside the Nature Conservatory to assist in building a model/app to address plastic waste in the United States.
-
-
